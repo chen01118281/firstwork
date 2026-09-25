@@ -32,7 +32,7 @@ int main() {
                  >> obsPts[i].u   >> obsPts[i].v;
     }
 
-    std::cout << "\n========== 重投影结果 ==========" << std::endl;
+    std::cout << "\n========== 重投影结果如下 ==========" << std::endl;
     for (int i = 0; i < n; i++) {
         Point3d Pc = worldToCamera(worldPts[i], R, t);
 
